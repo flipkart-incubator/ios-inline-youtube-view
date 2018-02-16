@@ -1,19 +1,19 @@
 {
   "name": "InlineYoutubeView",
-  "version": "0.1.0",
-  "summary": "A short description of InlineYoutubeView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/shubhankaryash/InlineYoutubeView",
+  "version": "1.0.2",
+  "summary": "Play inline youtube videos",
+  "description": "Helper library for iOS developers who want to play YouTube videos in\ntheir iOS apps with the iframe player API.\nThis library allows iOS developers to quickly embed YouTube videos within\ntheir applications via a custom subclass called InlineYoutubeView which is modification of the original YTPlayerView by youtube.\nThis library provides:\n* A managed WKWebView instance that loads the HTML code for the iframe player\n* Objective-C wrapper functions for the JavaScript Player API\n* YTPlayerViewDelegate for handling YouTube player state changes natively in\nyour Objective-C code",
+  "homepage": "https://github.com/flipkart-incubator/inline-youtube-view",
   "license": {
-    "type": "MIT",
+    "type": "Apache, Version 2.0",
     "file": "LICENSE"
   },
   "authors": {
     "shubhankaryash": "shubhankar.yash@flipkart.com"
   },
   "source": {
-    "git": "https://github.com/shubhankaryash/InlineYoutubeView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/flipkart-incubator/inline-youtube-view.git",
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"

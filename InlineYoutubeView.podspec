@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'InlineYoutubeView'
-  s.version          = '1.0.2'
+  s.version          = '0.1.0'
   s.summary          = 'Play inline youtube videos'
 
   s.description      = <<-DESC
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   your Objective-C code
                     DESC
 
-  s.homepage         = 'https://github.com/flipkart-incubator/inline-youtube-view'
+  s.homepage         = 'https://github.com/flipkart-incubator/ios-inline-youtube-view'
   s.license          = { :type => 'Apache, Version 2.0', :file => 'LICENSE' }
   s.author           = { 'shubhankaryash' => 'shubhankar.yash@flipkart.com' }
-  s.source           = { :git => 'https://github.com/flipkart-incubator/inline-youtube-view.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/flipkart-incubator/ios-inline-youtube-view.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '8.0'
   s.source_files = 'InlineYoutubeView/Classes/**/*'

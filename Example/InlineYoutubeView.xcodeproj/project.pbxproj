@@ -23,6 +23,8 @@
 		7F183665A583ADF20478F273 /* Pods_InlineYoutubeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C1B0CEEEF825B67380DAC2 /* Pods_InlineYoutubeView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9D3A2CD1AA51778382BFE171 /* Pods_InlineYoutubeView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9926BEC97C42DBDA6F38651 /* Pods_InlineYoutubeView_Example.framework */; };
+		F6502A332036E3940095EF9F /* LICENSE_FLIPKART in Resources */ = {isa = PBXBuildFile; fileRef = F6502A312036E3940095EF9F /* LICENSE_FLIPKART */; };
+		F6502A342036E3940095EF9F /* LICENSE_GOOGLE in Resources */ = {isa = PBXBuildFile; fileRef = F6502A322036E3940095EF9F /* LICENSE_GOOGLE */; };
 		F6FC19DD20223DC800638E65 /* YTVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC19DC20223DC700638E65 /* YTVideoCell.m */; };
 /* End PBXBuildFile section */
 
@@ -59,13 +61,14 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		755E1FAA7A0F13E940FD0D0F /* Pods-InlineYoutubeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InlineYoutubeView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InlineYoutubeView_Tests/Pods-InlineYoutubeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		80C1B0CEEEF825B67380DAC2 /* Pods_InlineYoutubeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InlineYoutubeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86C3A0D2DC4652F7F047BCF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B1B9967E5666879135AC154 /* Pods-InlineYoutubeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InlineYoutubeView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InlineYoutubeView_Example/Pods-InlineYoutubeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9926BEC97C42DBDA6F38651 /* Pods_InlineYoutubeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InlineYoutubeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65856849AB3ABB33B37C051 /* Pods-InlineYoutubeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InlineYoutubeView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InlineYoutubeView_Tests/Pods-InlineYoutubeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D22BF2BDF63831F7A34DB0CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEF79881C9960A4D5499D797 /* InlineYoutubeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InlineYoutubeView.podspec; path = ../InlineYoutubeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6502A312036E3940095EF9F /* LICENSE_FLIPKART */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_FLIPKART; path = ../LICENSE_FLIPKART; sourceTree = "<group>"; };
+		F6502A322036E3940095EF9F /* LICENSE_GOOGLE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_GOOGLE; path = ../LICENSE_GOOGLE; sourceTree = "<group>"; };
 		F6FC19DB20223CEC00638E65 /* YTVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTVideoCell.h; sourceTree = "<group>"; };
 		F6FC19DC20223DC700638E65 /* YTVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTVideoCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
@@ -191,9 +194,10 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				F6502A312036E3940095EF9F /* LICENSE_FLIPKART */,
+				F6502A322036E3940095EF9F /* LICENSE_GOOGLE */,
 				EEF79881C9960A4D5499D797 /* InlineYoutubeView.podspec */,
 				D22BF2BDF63831F7A34DB0CF /* README.md */,
-				86C3A0D2DC4652F7F047BCF4 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -285,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				F6502A342036E3940095EF9F /* LICENSE_GOOGLE in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				F6502A332036E3940095EF9F /* LICENSE_FLIPKART in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
