@@ -1,6 +1,5 @@
 # InlineYoutubeView
 
-[![CI Status](http://img.shields.io/travis/shubhankaryash/InlineYoutubeView.svg?style=flat)](https://travis-ci.org/shubhankaryash/InlineYoutubeView)
 [![Version](https://img.shields.io/cocoapods/v/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 [![License](https://img.shields.io/cocoapods/l/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 [![Platform](https://img.shields.io/cocoapods/p/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
@@ -72,7 +71,8 @@ Implement the playerViewDidBecomeReady method of the InlineYoutubeViewDelegate. 
 - (void)playerViewDidBecomeReady:(nonnull InlineYoutubeView *)playerView {
 //Load the youtube video with the videoId of the video
 [playerView loadVideoById:_videoId startSeconds:0 suggestedQuality:kYTPlaybackQualityAuto];
-[playerView playVideo];}
+[playerView playVideo];
+}
 ```
 
 You can implement other methods of the InlineYoutubeViewDelegate depending on your requirements. Check out the InlineYoutubeView.h file for more documentation on the same.
@@ -91,6 +91,11 @@ You can implement other methods of the InlineYoutubeViewDelegate depending on yo
 
 - (nullable UIView *)playerViewPreferredInitialLoadingView:(nonnull InlineYoutubeView *)playerView;
 ```
+## Other platforms
+
+We have developed the InlineYoutubeView in other platforms as well. Do check them out. <br />
+For Android visit https://github.com/flipkart-incubator/inline-youtube-view/
+
 ## Author
 
 shubhankaryash, shubhankar.yash@flipkart.com
