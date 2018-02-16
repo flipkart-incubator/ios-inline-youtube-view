@@ -20,9 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7F183665A583ADF20478F273 /* Pods_InlineYoutubeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C1B0CEEEF825B67380DAC2 /* Pods_InlineYoutubeView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9D3A2CD1AA51778382BFE171 /* Pods_InlineYoutubeView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9926BEC97C42DBDA6F38651 /* Pods_InlineYoutubeView_Example.framework */; };
 		F6502A332036E3940095EF9F /* LICENSE_FLIPKART in Resources */ = {isa = PBXBuildFile; fileRef = F6502A312036E3940095EF9F /* LICENSE_FLIPKART */; };
 		F6502A342036E3940095EF9F /* LICENSE_GOOGLE in Resources */ = {isa = PBXBuildFile; fileRef = F6502A322036E3940095EF9F /* LICENSE_GOOGLE */; };
 		F6FC19DD20223DC800638E65 /* YTVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC19DC20223DC700638E65 /* YTVideoCell.m */; };
@@ -81,7 +79,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9D3A2CD1AA51778382BFE171 /* Pods_InlineYoutubeView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +89,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7F183665A583ADF20478F273 /* Pods_InlineYoutubeView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

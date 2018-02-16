@@ -16,8 +16,8 @@
 		E2F2DA425F75FCE8F44AAE649DA35C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E8431061C21814F79AE927292E2338E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EA4F16C5600C809F1188C34B0102B649 /* Pods-InlineYoutubeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2915DB20228F9DE5887451D059471CC1 /* Pods-InlineYoutubeView_Tests-dummy.m */; };
-		F6FC19D72021D6E700638E65 /* InlineYoutubeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FC19D62021D6E700638E65 /* InlineYoutubeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6FC19D92021D74300638E65 /* InlineYoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC19D82021D74300638E65 /* InlineYoutubeView.m */; };
+		F6502A38203705630095EF9F /* InlineYoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6502A36203705630095EF9F /* InlineYoutubeView.m */; };
+		F6502A39203706590095EF9F /* InlineYoutubeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6502A35203705630095EF9F /* InlineYoutubeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +61,10 @@
 		CF02602B17E37E730C0B988E2A290964 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3245A55F2884BC94866F4AEF4B42C85 /* Pods-InlineYoutubeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InlineYoutubeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D717FD4A3049991F5366BEC56AC89645 /* Pods-InlineYoutubeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InlineYoutubeView_Example-dummy.m"; sourceTree = "<group>"; };
-		DF171B649EB53A0F39509F326441A00E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E44D0ECB940714AEBDCA7053A7B49BA7 /* Pods-InlineYoutubeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InlineYoutubeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E92CAFB5C2999089DC608121B88F6839 /* Pods_InlineYoutubeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InlineYoutubeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6FC19D62021D6E700638E65 /* InlineYoutubeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InlineYoutubeView.h; sourceTree = "<group>"; };
-		F6FC19D82021D74300638E65 /* InlineYoutubeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InlineYoutubeView.m; sourceTree = "<group>"; };
+		F6502A35203705630095EF9F /* InlineYoutubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InlineYoutubeView.h; path = InlineYoutubeView/Classes/InlineYoutubeView.h; sourceTree = "<group>"; };
+		F6502A36203705630095EF9F /* InlineYoutubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InlineYoutubeView.m; path = InlineYoutubeView/Classes/InlineYoutubeView.m; sourceTree = "<group>"; };
 		FB31B948144301469EAE3E5302A1CBD0 /* Pods-InlineYoutubeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InlineYoutubeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				05328620880922443F13217CD39C5247 /* InlineYoutubeView.podspec */,
-				DF171B649EB53A0F39509F326441A00E /* LICENSE */,
 				172F4F4E6CCB7FE5F512DDE9CF5CBF21 /* README.md */,
 			);
 			name = Pod;
@@ -225,8 +223,8 @@
 		F6FC19DA2022354B00638E65 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F6FC19D62021D6E700638E65 /* InlineYoutubeView.h */,
-				F6FC19D82021D74300638E65 /* InlineYoutubeView.m */,
+				F6502A35203705630095EF9F /* InlineYoutubeView.h */,
+				F6502A36203705630095EF9F /* InlineYoutubeView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -247,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8413AB59909377E6E043EAB45349E9B /* InlineYoutubeView-umbrella.h in Headers */,
-				F6FC19D72021D6E700638E65 /* InlineYoutubeView.h in Headers */,
+				F6502A39203706590095EF9F /* InlineYoutubeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D384C05E1C452DA6A09D9C913E4660 /* InlineYoutubeView-dummy.m in Sources */,
-				F6FC19D92021D74300638E65 /* InlineYoutubeView.m in Sources */,
+				F6502A38203705630095EF9F /* InlineYoutubeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
