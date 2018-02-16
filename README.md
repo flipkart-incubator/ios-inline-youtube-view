@@ -33,16 +33,34 @@ pod 'InlineYoutubeView'
 
 ## Usage
 
-Import the header file
+**Import the header file**
+
+ObjectiveC
 ```objective-c
 #import <InlineYoutubeView/InlineYoutubeView.h>
 ```
 
-Create an object of the InlineYoutubeView
+Swift
+```swift
+import InlineYoutubeView
+```
+
+
+**Create an object of the InlineYoutubeView.**
+
+ObjectiveC
 ```objective-c
 @property (nonatomic, strong) InlineYoutubeView *youtubeView;
 ```
-Initialise the Inline youtube view
+
+Swift
+```swift
+var youtubeView: InlineYoutubeView
+```
+
+**Initialise the Inline youtube view.**
+
+ObjectiveC
 ```objective-c
 //The url where the HTML is hosted. You can have any custom HTML url as well. So you can modify the iframe provided, upload the modified HTML file and use the url here
 NSString *const HTML_URL = @"https://cdn.rawgit.com/flipkart-incubator/inline-youtube-view/60bae1a1/youtube-android/youtube_iframe_player.html";
@@ -53,12 +71,34 @@ self.youtubeView = [[InlineYoutubeView alloc] initWithHtmlUrl:HTML_URL andVideoP
 //Incase you need your youtube view to open in fullscreen
 self.youtubeView = [[InlineYoutubeView alloc] initWithHtmlUrl:HTML_URL andVideoPlayerMode:kYTPlayerModeFullScreen];
 ```
-Set the delegate of the youtube view to self. This will ensure that you start receiving all the InlineYoutubeView callbacks
+
+Swift
+```swift
+//The url where the HTML is hosted. You can have any custom HTML url as well. So you can modify the iframe provided, upload the modified HTML file and use the url here
+let HTML_URL = "https://cdn.rawgit.com/flipkart-incubator/inline-youtube-view/60bae1a1/youtube-android/youtube_iframe_player.html"
+
+//Incase you need your youtube view to open inline
+youtubeView = InlineYoutubeView(htmlUrl: HTML_URL, andVideoPlayerMode: .inline)
+
+//Incase you need your youtube view to open in fullscreen
+youtubeView = InlineYoutubeView(htmlUrl: HTML_URL, andVideoPlayerMode: .fullScreen)
+```
+
+**Set the delegate of the youtube view to self. This will ensure that you start receiving all the InlineYoutubeView callbacks.**
+
+ObjectiveC
 ```objective-c
 self.youtubeView.delegate = self;
 ```
 
-Load the iframe. If it is not loaded right now, the InlineYoutubeView will give a playerViewDidBecomeReady callback when it loads up. If it is loaded we will simply call the method right now to start up the video
+Swift
+```swift
+ youtubeView.delegate = self
+```
+
+**Load the iframe. If it is not loaded right now, the InlineYoutubeView will give a playerViewDidBecomeReady callback when it loads up. If it is loaded we will simply call the method right now to start up the video.**
+
+ObjectiveC
 ```objective-c
 //Wait for youtube player to to get ready or proceed if it is ready.
 if([self.youtubeView loadYTIframe]) {
@@ -66,7 +106,17 @@ if([self.youtubeView loadYTIframe]) {
 }
 ```
 
-Implement the playerViewDidBecomeReady method of the InlineYoutubeViewDelegate. This method should be called when your player becomes ready.
+Swift
+```swift
+//Wait for youtube player to to get ready or proceed if it is ready.
+if (ytPlayerView.loadYTIframe()) {
+  playerViewDidBecomeReady(ytPlayerView!)
+}
+ ```
+
+**Implement the playerViewDidBecomeReady method of the InlineYoutubeViewDelegate. This method should be called when your player becomes ready.**
+
+ObjectiveC
 ```objective-c
 - (void)playerViewDidBecomeReady:(nonnull InlineYoutubeView *)playerView {
 //Load the youtube video with the videoId of the video
@@ -75,7 +125,18 @@ Implement the playerViewDidBecomeReady method of the InlineYoutubeViewDelegate. 
 }
 ```
 
-You can implement other methods of the InlineYoutubeViewDelegate depending on your requirements. Check out the InlineYoutubeView.h file for more documentation on the same.
+Swift
+```swift
+//Wait for youtube player to to get ready or proceed if it is ready.
+func playerViewDidBecomeReady(_ playerView: InlineYoutubeView) {
+    //Load the youtube video with the videoId of the video
+    playerView.loadVideo(byId: videoId, startSeconds: 0, suggestedQuality: YTPlaybackQuality.auto)
+    playerView.playVideo()
+}
+ ```
+
+**You can implement other methods of the InlineYoutubeViewDelegate depending on your requirements. Check out the InlineYoutubeView.h file for more documentation on the same.**
+
 ```objective-c
 - (void)playerView:(nonnull InlineYoutubeView *)playerView didChangeToState:(YTPlayerState)state;
 
@@ -91,6 +152,7 @@ You can implement other methods of the InlineYoutubeViewDelegate depending on yo
 
 - (nullable UIView *)playerViewPreferredInitialLoadingView:(nonnull InlineYoutubeView *)playerView;
 ```
+
 ## Other platforms
 
 We have developed the InlineYoutubeView in other platforms as well. Do check them out. <br />
