@@ -21,8 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F6502A332036E3940095EF9F /* LICENSE_FLIPKART in Resources */ = {isa = PBXBuildFile; fileRef = F6502A312036E3940095EF9F /* LICENSE_FLIPKART */; };
-		F6502A342036E3940095EF9F /* LICENSE_GOOGLE in Resources */ = {isa = PBXBuildFile; fileRef = F6502A322036E3940095EF9F /* LICENSE_GOOGLE */; };
+		F6502A342036E3940095EF9F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6502A322036E3940095EF9F /* LICENSE */; };
 		F6FC19DD20223DC800638E65 /* YTVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC19DC20223DC700638E65 /* YTVideoCell.m */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +64,7 @@
 		B65856849AB3ABB33B37C051 /* Pods-InlineYoutubeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InlineYoutubeView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InlineYoutubeView_Tests/Pods-InlineYoutubeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D22BF2BDF63831F7A34DB0CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEF79881C9960A4D5499D797 /* InlineYoutubeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InlineYoutubeView.podspec; path = ../InlineYoutubeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F6502A312036E3940095EF9F /* LICENSE_FLIPKART */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_FLIPKART; path = ../LICENSE_FLIPKART; sourceTree = "<group>"; };
-		F6502A322036E3940095EF9F /* LICENSE_GOOGLE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_GOOGLE; path = ../LICENSE_GOOGLE; sourceTree = "<group>"; };
+		F6502A322036E3940095EF9F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F6FC19DB20223CEC00638E65 /* YTVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTVideoCell.h; sourceTree = "<group>"; };
 		F6FC19DC20223DC700638E65 /* YTVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTVideoCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
@@ -190,8 +188,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F6502A312036E3940095EF9F /* LICENSE_FLIPKART */,
-				F6502A322036E3940095EF9F /* LICENSE_GOOGLE */,
+				F6502A322036E3940095EF9F /* LICENSE */,
 				EEF79881C9960A4D5499D797 /* InlineYoutubeView.podspec */,
 				D22BF2BDF63831F7A34DB0CF /* README.md */,
 			);
@@ -285,9 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				F6502A342036E3940095EF9F /* LICENSE_GOOGLE in Resources */,
+				F6502A342036E3940095EF9F /* LICENSE in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				F6502A332036E3940095EF9F /* LICENSE_FLIPKART in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
