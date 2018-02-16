@@ -1,0 +1,22 @@
+{
+  "name": "InlineYoutubeView",
+  "version": "0.1.0",
+  "summary": "A short description of InlineYoutubeView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shubhankaryash/InlineYoutubeView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shubhankaryash": "shubhankar.yash@flipkart.com"
+  },
+  "source": {
+    "git": "https://github.com/shubhankaryash/InlineYoutubeView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "InlineYoutubeView/Classes/**/*"
+}

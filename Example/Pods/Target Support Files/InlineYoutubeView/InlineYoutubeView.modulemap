@@ -1,0 +1,6 @@
+framework module InlineYoutubeView {
+  umbrella header "InlineYoutubeView-umbrella.h"
+
+  export *
+  module * { export * }
+}
