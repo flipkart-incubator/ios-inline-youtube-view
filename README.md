@@ -44,9 +44,7 @@ Swift
 ```swift
 import InlineYoutubeView
 ```
-
-
-
+<br />
 
 **Create an object of the InlineYoutubeView.**
 
@@ -59,8 +57,7 @@ Swift
 ```swift
 var youtubeView: InlineYoutubeView
 ```
-
-
+<br />
 
 **Initialise the Inline youtube view.**
 
@@ -87,8 +84,7 @@ youtubeView = InlineYoutubeView(htmlUrl: HTML_URL, andVideoPlayerMode: .inline)
 //Incase you need your youtube view to open in fullscreen
 youtubeView = InlineYoutubeView(htmlUrl: HTML_URL, andVideoPlayerMode: .fullScreen)
 ```
-
-
+<br />
 
 **Set the delegate of the youtube view to self. This will ensure that you start receiving all the InlineYoutubeView callbacks.**
 
@@ -102,7 +98,7 @@ Swift
  youtubeView.delegate = self
 ```
 
-
+<br />
 
 **Load the iframe. If it is not loaded right now, the InlineYoutubeView will give a playerViewDidBecomeReady callback when it loads up. If it is loaded we will simply call the method right now to start up the video.**
 
@@ -118,11 +114,11 @@ Swift
 ```swift
 //Wait for youtube player to to get ready or proceed if it is ready.
 if (ytPlayerView.loadYTIframe()) {
-  playerViewDidBecomeReady(ytPlayerView!)
+  playerViewDidBecomeReady(ytPlayerView)
 }
  ```
  
- 
+ <br />
 
 **Implement the playerViewDidBecomeReady method of the InlineYoutubeViewDelegate. This method should be called when your player becomes ready.**
 
@@ -145,7 +141,7 @@ func playerViewDidBecomeReady(_ playerView: InlineYoutubeView) {
 }
  ```
  
- 
+<br /> 
 
 **You can implement other methods of the InlineYoutubeViewDelegate depending on your requirements. Check out the InlineYoutubeView.h file for more documentation on the same.**
 
@@ -164,6 +160,7 @@ func playerViewDidBecomeReady(_ playerView: InlineYoutubeView) {
 
 - (nullable UIView *)playerViewPreferredInitialLoadingView:(nonnull InlineYoutubeView *)playerView;
 ```
+<br />
 
 ## Other platforms
 
