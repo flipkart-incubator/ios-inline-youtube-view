@@ -1,6 +1,7 @@
 # ios-inline-youtube-view 
 
 [![Version](https://img.shields.io/cocoapods/v/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
+[![Build Status](https://travis-ci.org/flipkart-incubator/ios-inline-youtube-view.svg?branch=master)](https://travis-ci.org/flipkart-incubator/ios-inline-youtube-view) 
 [![License](https://img.shields.io/cocoapods/l/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 [![Platform](https://img.shields.io/cocoapods/p/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 
