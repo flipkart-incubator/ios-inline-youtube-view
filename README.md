@@ -1,30 +1,30 @@
-# InlineYoutubeView
+# ios-inline-youtube-view 
 
 [![Version](https://img.shields.io/cocoapods/v/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 [![License](https://img.shields.io/cocoapods/l/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 [![Platform](https://img.shields.io/cocoapods/p/InlineYoutubeView.svg?style=flat)](http://cocoapods.org/pods/InlineYoutubeView)
 
-## About
-This pod is a modification of the youtube-ios-helper provided by youtube. Modifications include
-1) Migration to WkWebView from the older UIWebView. WKWebView is run in a separate process to your app so that it can draw on native Safari JavaScript optimizations. This means WKWebView loads web pages faster and more efficiently than UIWebView, and also doesn't have as much memory overhead for you. Quoting the Apple documentation - "Starting in iOS 8.0 and OS X 10.10, use WKWebView to add web content to your app. Do not use UIWebView or WebView."
-2) Adding support for custom html urls. Earlier we could only use the html in the resource bundle
-3) Adding parameter for deciding whether to play the videos inline or fullscreen.
-4) Adding error callback for when network is offline after iframeAPI has been loaded.
+YouTube component for Android, iOS and React. This is a suite of utility libraries around using YouTube inside your [Android](https://github.com/flipkart-incubator/inline-youtube-view/), [iOS](https://github.com/flipkart-incubator/ios-inline-youtube-view/) or React Native app.
 
-## Example
+## youtube-ios
+
+This pod is a modification of the youtube-ios-helper provided by youtube. Modifications include
+* Migration to WkWebView from the older UIWebView. WKWebView is run in a separate process to your app so that it can draw on native Safari JavaScript optimizations. This means WKWebView loads web pages faster and more efficiently than UIWebView, and also doesn't have as much memory overhead for you. Quoting the Apple documentation - "Starting in iOS 8.0 and OS X 10.10, use WKWebView to add web content to your app. Do not use UIWebView or WebView."
+* Adding support for custom html urls. Earlier we could only use the html in the resource bundle
+* Adding parameter for deciding whether to play the videos inline or fullscreen.
+* Adding error callback for when network is offline after iframeAPI has been loaded.
+
+## Demo App
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Screenshots
+## Demo Gifs
 
-Inline Youtube videos <br />
-<img src="Screenshots/InlineYoutube.gif" width="400" height="700">
-
-
+![YouTube iOS](https://github.com/flipkart-incubator/ios-inline-youtube-view/blob/master/Screenshots/InlineYoutube.gif)
 
 ## Installation
 
-InlineYoutubeView is available through [CocoaPods](http://cocoapods.org). To install
+inlineYouTubeView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -162,10 +162,13 @@ func playerViewDidBecomeReady(_ playerView: InlineYoutubeView) {
 ```
 <br />
 
-## Other platforms
+## YouTube Android Player
 
-We have developed the InlineYoutubeView in other platforms as well. Do check them out. <br />
-For Android visit https://github.com/flipkart-incubator/inline-youtube-view/
+We have open-sourced the inline-youtube-player for [Android](https://github.com/flipkart-incubator/inline-youtube-view) also.
+
+## Contributing
+
+The easiest way to contribute is by [forking the repo](https://help.github.com/articles/fork-a-repo/), making your changes and [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 ## Author
 
