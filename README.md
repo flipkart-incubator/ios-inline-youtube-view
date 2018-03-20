@@ -13,11 +13,7 @@ This pod is a modification of the youtube-ios-helper provided by youtube. Modifi
 * Migration to WkWebView from the older UIWebView. WKWebView is run in a separate process to your app so that it can draw on native Safari JavaScript optimizations. This means WKWebView loads web pages faster and more efficiently than UIWebView, and also doesn't have as much memory overhead for you. Quoting the Apple documentation - "Starting in iOS 8.0 and OS X 10.10, use WKWebView to add web content to your app. Do not use UIWebView or WebView."
 * Adding support for custom html urls. Earlier we could only use the html in the resource bundle
 * Adding parameter for deciding whether to play the videos inline or fullscreen.
-* Adding error callback for when network is offline after iframeAPI has been loaded.
-
-## Demo App
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+* Adding error callback for when network is offline after iframeAPI has been loaded
 
 ## Demo Gifs
 
