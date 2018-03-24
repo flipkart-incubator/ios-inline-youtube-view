@@ -160,6 +160,10 @@ func playerViewDidBecomeReady(_ playerView: InlineYoutubeView) {
 - (nonnull UIColor *)playerViewPreferredWebViewBackgroundColor:(nonnull InlineYoutubeView *)playerView;
 
 - (nullable UIView *)playerViewPreferredInitialLoadingView:(nonnull InlineYoutubeView *)playerView;
+
+- (void)playerViewDidEnterFullScreen:(nonnull InlineYoutubeView *)playerView;
+
+- (void)playerViewDidExitFullScreen:(nonnull InlineYoutubeView *)playerView;
 ```
 <br />
 
