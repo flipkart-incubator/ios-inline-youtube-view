@@ -101,7 +101,7 @@ Swift
 
 <br />
 
-**Load the iframe. If it is not loaded right now, the InlineYoutubeView will give a playerViewDidBecomeReady callback when it loads up. If it is loaded we will simply call the method right now to start up the video.**
+**Load the iframe. If it is not loaded right now, the InlineYoutubeView will give a playerViewDidBecomeReady callback when it loads up. If it is loaded we will simply call the method right now to start up the video. Do remember to setup the UI properties like frame/bounds before this step**
 
 ObjectiveC
 ```objective-c
@@ -114,8 +114,8 @@ if([self.youtubeView loadYTIframe]) {
 Swift
 ```swift
 //Wait for youtube player to to get ready or proceed if it is ready.
-if (ytPlayerView.loadYTIframe()) {
-  playerViewDidBecomeReady(ytPlayerView)
+if (youtubeView.loadYTIframe()) {
+  playerViewDidBecomeReady(youtubeView)
 }
  ```
  
