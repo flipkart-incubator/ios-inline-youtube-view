@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'InlineYoutubeSwiftExample' do
+    pod 'InlineYoutubeView'
+end
