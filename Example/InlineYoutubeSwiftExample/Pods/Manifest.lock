@@ -1,0 +1,16 @@
+PODS:
+  - InlineYoutubeView (0.4.0)
+
+DEPENDENCIES:
+  - InlineYoutubeView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - InlineYoutubeView
+
+SPEC CHECKSUMS:
+  InlineYoutubeView: 12868987bae3245ff8cba65a4f8dd4efd7220d93
+
+PODFILE CHECKSUM: 9c82772e650fa0ea616f548a13851c80b2b4de04
+
+COCOAPODS: 1.5.3
